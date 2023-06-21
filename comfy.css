@@ -445,7 +445,7 @@
   .time .content {
     margin: auto;
     width: 90%;
-    transform: translate(0%, 140%);
+    transform: translate(0%, 135%);
   }
   .time .content .title {
     font-size: var(--font-size-5xl);
@@ -514,7 +514,7 @@
   .action .content {
     margin: auto;
     width: 90%;
-    transform: translate(0%, 150%);
+    transform: translate(0%, 160%);
   }
   .action .title {
     font-size: var(--font-size-5xl);
