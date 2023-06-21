@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  line-height: normal;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+:root {
+  /* fonts */
+  --subtitle: "Work Sans";
+
+  /* font sizes */
+  --subtitle-size: 20px;
+  --title-size: 50px;
+  --font-size-5xl: 24px;
+  --body1-size: 18px;
+  --font-size-21xl: 40px;
+  --font-size-9xl: 28px;
+  --font-size-sm: 14px;
+  --title1-size: 22px;
+  --font-size-17xl: 36px;
+  --font-size-53xl: 72px;
+  --body-size: 16px;
+  --font-size-45xl: 64px;
+  --font-size-11xl: 30px;
+  --font-size-xs: 12px;
+  --font-size-3xs: 10px;
+
+  /* Colors */
+  --b: #286262;
+  --a: #e2b029;
+  --coral: #f9784d;
+  --yellow: rgba(241, 234, 224, 0.7);
+  --gray-lighter: #fbfbfb;
+  --gray-text-body: rgba(69, 69, 69, 0.8);
+  --color-mediumseagreen: #00c187;
+  --blue: #0055d4;
+  --color-silver-100: #b7b7b7;
+  --color-silver-200: rgba(196, 196, 196, 0.5);
+  --color-black: #000;
+
+  /* border radiuses */
+  --br-14xl-5: 33.5px;
+  --br-3xs: 10px;
+}
