@@ -390,7 +390,7 @@
   .flash-deal {
     background-image: url("image/zzz 1.png");
     background-position: bottom;
-    height: 600px;
+    height: 650px;
   }
   .flash-deal .content {
     margin: auto;
@@ -445,7 +445,7 @@
   .time .content {
     margin: auto;
     width: 90%;
-    transform: translate(0%, 135%);
+    transform: translate(0%, 140%);
   }
   .time .content .title {
     font-size: var(--font-size-5xl);
