@@ -400,12 +400,13 @@
   }
   .flash-deal .title {
     font-size: var(--font-size-11xl);
+    padding-top: 50px;
   }
   .flash-deal .discription {
     font-size: var(--body-size);
   }
   .sale-up {
-    padding: 0 10px 40px;
+    padding: 0px 10px 40px;
   }
   .sale-up .sale {
     font-size: var(--body1-size);
@@ -513,7 +514,7 @@
   .action .content {
     margin: auto;
     width: 90%;
-    transform: translate(0%, 140%);
+    transform: translate(0%, 150%);
   }
   .action .title {
     font-size: var(--font-size-5xl);
