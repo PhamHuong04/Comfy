@@ -1,3 +1,6 @@
+a{
+  text-decoration: none;
+}
 .header {
   background-image: url("./image/Header-cybermonday 1.png");
   background-position: center;
@@ -26,7 +29,7 @@
   width: 70%;
   margin: 40px 0 60px 0;
 }
-.header .content button {
+.header .content a {
   background-color: var(--b);
   padding: 15px 50px;
   color: #fff;
@@ -36,7 +39,7 @@
   text-transform: uppercase;
   cursor: pointer;
 }
-.header .content button:hover {
+.header .content a:hover {
   background-color: var(--a);
   font-weight: 700;
 }
@@ -155,7 +158,7 @@
   margin-left: 10px;
 }
 
-.sale-up .buy button {
+.sale-up a {
   padding: 10px 20px;
   width: 50%;
   text-transform: uppercase;
@@ -165,7 +168,7 @@
   cursor: pointer;
 }
 
-.sale-up .buy button:hover {
+.sale-up a:hover {
   background-color: var(--a);
   font-weight: 700;
 }
@@ -189,6 +192,7 @@
 
 .time .count-down {
   display: flex;
+  margin-bottom: 50px;
 }
 
 .time .box {
@@ -213,7 +217,7 @@
   font-size: var(--subtitle-size);
 }
 
-.time .content button {
+.time .content a {
   background-color: var(--coral);
   margin-top: 40px;
   font-size: var(--font-size-5xl);
@@ -344,7 +348,7 @@
   .header .content {
     margin: auto;
     width: 90%;
-    transform: translate(0%, 220%);
+    transform: translate(0%, 270%);
   }
   .header .title {
     font-size: var(--font-size-17xl);
@@ -354,7 +358,7 @@
     width: 100%;
     margin: 20px 0 30px;
   }
-  .header .content button {
+  .header .content a {
     padding: 15px 30px;
     font-size: var(--body1-size);
     margin-bottom: 20px;
@@ -432,7 +436,7 @@
   .sale-up .price {
     font-size: var(--font-size-sm);
   }
-  .sale-up .buy button {
+  .sale-up a {
     font-size: var(--font-size-xs);
     width: 70%;
   }
@@ -462,7 +466,7 @@
   .time .box .text {
     font-size: var(--font-size-sm);
   }
-  .time .content button {
+  .time .content a {
     font-size: var(--subtitle-size);
     text-align: center;
     margin: 30px 25% 0;
