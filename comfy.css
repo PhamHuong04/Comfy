@@ -118,8 +118,7 @@ a {
 .sale-up {
   text-align: center;
   background-color: var(--yellow);
-  padding: 0 10%;
-  margin-bottom: 50px;
+  padding: 0 10% 50px 10%;
 }
 
 .sale-up .sale {
