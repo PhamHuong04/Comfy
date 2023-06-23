@@ -119,6 +119,7 @@ a {
   text-align: center;
   background-color: var(--yellow);
   padding: 0 10%;
+  margin-bottom: 50px;
 }
 
 .sale-up .sale {
