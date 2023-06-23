@@ -197,7 +197,7 @@ a {
 }
 
 .sale-up a {
-  padding: 17px 20px;
+  padding: 17px 0;
   width: 50%;
   text-transform: uppercase;
   color: #fff;
@@ -494,15 +494,24 @@ a {
 
   .sale-up .collection-list {
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 15px;
+    row-gap: 30px;
+  }
+
+  .sale-up .infor {
+    gap: 10px;
   }
 
   .sale-up .product {
     width: 165px;
-    margin: 30px 10px 20px;
+    /* margin: 30px 10px 20px; */
+    margin: 0;
+    overflow: hidden;
+    gap: 20px;
   }
 
   .sale-up .image {
-    height: 278px;
+    min-height: 207px;
   }
 
   .sale-up .image img {
@@ -515,11 +524,13 @@ a {
 
   .sale-up .price {
     font-size: var(--font-size-sm);
+    margin: 0;
   }
 
   .sale-up a {
     font-size: var(--font-size-xs);
     width: 70%;
+    padding: 10px 0;
   }
 
   .time {
