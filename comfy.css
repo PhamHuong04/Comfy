@@ -1,20 +1,36 @@
-a{
+a {
   text-decoration: none;
 }
+
 .header {
-  background-image: url("./image/Header-cybermonday 1.png");
-  background-position: center;
-  background-repeat: no-repeat;
   position: relative;
+  /* padding: 228px 0; */
   height: 831px;
-  background-color: rgba(241, 234, 224, 0.7);
-  background-size: cover;
 }
+
+.header .image {
+  background-color: rgba(241, 234, 224, 0.7);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.image img.mobile {
+  display: none;
+}
+
+.header .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .header .content {
   margin-left: 10%;
   width: 40%;
   transform: translate(0, 50%);
 }
+
 .header .title {
   text-transform: uppercase;
   font-weight: 700;
@@ -29,6 +45,7 @@ a{
   width: 70%;
   margin: 40px 0 60px 0;
 }
+
 .header .content a {
   background-color: var(--b);
   padding: 15px 50px;
@@ -39,10 +56,12 @@ a{
   text-transform: uppercase;
   cursor: pointer;
 }
+
 .header .content a:hover {
   background-color: var(--a);
   font-weight: 700;
 }
+
 .benefits {
   margin: 0 10% 100px 10%;
 }
@@ -101,6 +120,7 @@ a{
   background-color: var(--yellow);
   padding: 0 10%;
 }
+
 .sale-up .sale {
   color: var(--b);
   font-size: var(--font-size-9xl);
@@ -116,6 +136,7 @@ a{
   color: var(--coral);
   margin: 0 0 50px 0;
 }
+
 .sale-up .product {
   width: 270px;
   margin: 30px 15px 60px;
@@ -126,6 +147,7 @@ a{
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .sale-up .image {
   background-color: #fff;
   height: 340px;
@@ -134,6 +156,7 @@ a{
   align-items: center;
   justify-content: center;
 }
+
 .sale-up .infor .name {
   color: var(--gray-text-body);
   font-size: var(--font-size-5xl);
@@ -180,10 +203,12 @@ a{
   background-color: var(--b);
   height: 496px;
 }
+
 .time .content {
   transform: translate(100%, 35%);
   color: #fff;
 }
+
 .time .content .title {
   font-size: var(--title-size);
   text-transform: none;
@@ -298,6 +323,7 @@ a{
   display: flex;
   justify-content: center;
 }
+
 .sign-up .form-sign-up input {
   width: 20%;
   height: 50px;
@@ -340,174 +366,225 @@ a{
 .action .content button {
   font-size: var(--font-size-5xl);
 }
+
 @media only screen and (max-width: 768px) {
   .header {
-    background-image: url("./image/Header-mobile 1.png");
-    background-position: top;
+    height: 802px;
   }
+
+  .image img.desktop {
+    display: none;
+  }
+
+  .image img.mobile {
+    display: block;
+  }
+
   .header .content {
     margin: auto;
     width: 90%;
-    transform: translate(0%, 270%);
+    transform: translate(0%, 350%);
   }
+
   .header .title {
     font-size: var(--font-size-17xl);
   }
+
   .header .discription {
     font-size: var(--font-size-sm);
     width: 100%;
     margin: 20px 0 30px;
   }
+
   .header .content a {
     padding: 15px 30px;
     font-size: var(--body1-size);
     margin-bottom: 20px;
   }
+
   .benefits {
     margin: 0 5% 30px;
   }
+
   .benefits .title {
     font-size: var(--font-size-5xl);
     margin: 50px auto;
     width: 70%;
   }
+
   .benefits .benefit-list {
     flex-wrap: wrap;
     margin: auto;
   }
+
   .benefits .benefits1 {
     margin-bottom: 10px;
   }
+
   .benefits .benefits1 .icon img {
     width: 41px;
   }
+
   .benefits .benefit-list .title {
     font-size: var(--font-size-sm);
     margin: 0;
   }
+
   .benefits .benefit-list .content {
     width: 100%;
   }
+
   .benefits .discription {
     font-size: var(--font-size-xs);
   }
+
   .flash-deal {
     background-image: url("image/zzz 1.png");
     background-position: bottom;
     height: 650px;
   }
+
   .flash-deal .content {
     margin: auto;
     width: 90%;
     transform: translate(0, 0);
     text-align: center;
   }
+
   .flash-deal .title {
     font-size: var(--font-size-11xl);
     padding-top: 50px;
   }
+
   .flash-deal .discription {
     font-size: var(--body-size);
   }
+
   .sale-up {
     padding: 0px 10px 40px;
   }
+
   .sale-up .sale {
     font-size: var(--body1-size);
     padding-top: 50px;
   }
+
   .sale-up .collection {
     font-size: var(--font-size-5xl);
     margin: 0 0 10px 0;
   }
+
   .sale-up .product {
     width: 165px;
     margin: 30px 10px 20px;
   }
+
   .sale-up .image {
     height: 278px;
   }
+
   .sale-up .image img {
     width: 137px;
   }
+
   .sale-up .infor .name {
     font-size: var(--font-size-sm);
   }
+
   .sale-up .price {
     font-size: var(--font-size-sm);
   }
+
   .sale-up a {
     font-size: var(--font-size-xs);
     width: 70%;
   }
+
   .time {
     background-image: url("./image/thom-holmes-fIZMcJsw-ms-unsplashedited\ 2.png");
     background-size: contain;
     background-position: top;
     height: 570px;
   }
+
   .time .content {
     margin: auto;
     width: 90%;
     transform: translate(0%, 135%);
   }
+
   .time .content .title {
     font-size: var(--font-size-5xl);
     text-align: center;
   }
+
   .time .box {
     width: 80px;
     height: 80px;
     margin-top: 30px;
   }
+
   .time .box .number {
     font-size: var(--font-size-11xl);
   }
+
   .time .box .text {
     font-size: var(--font-size-sm);
   }
+
   .time .content a {
     font-size: var(--subtitle-size);
     text-align: center;
     margin: 30px 25% 0;
   }
+
   .testimonials .title {
     font-size: var(--font-size-5xl);
     margin: 50px 0 10px;
   }
+
   .testimonials .discription {
     font-size: var(--body-size);
     margin-bottom: 30px;
     padding: 0 10%;
   }
+
   .testimonials .review .content {
     max-width: 100%;
     margin: 0 5%;
     font-size: var(--font-size-sm);
   }
+
   .testimonials .review .name {
     font-size: var(--font-size-sm);
   }
+
   .dots li {
     width: 10px;
     height: 10px;
   }
+
   .sign-up {
     padding: 30px 0;
   }
+
   .sign-up .title {
     font-size: var(--font-size-5xl);
   }
+
   .sign-up .discription {
     font-size: var(--body-size);
     margin: 20px 5% 50px;
   }
+
   .sign-up .form-sign-up input {
     width: 50%;
   }
+
   .sign-up .form-sign-up .button-sign-up {
     width: fit-content;
   }
+
   .action {
     background-image: url("./image/heather-ford-5gkYsrH_ebY-unsplash\ 1.png");
     background-size: 100% auto;
@@ -515,16 +592,19 @@ a{
     background-color: var(--coral);
     height: 600px;
   }
+
   .action .content {
     margin: auto;
     width: 90%;
     transform: translate(0%, 150%);
   }
+
   .action .title {
     font-size: var(--font-size-5xl);
     width: 100%;
   }
+
   .action .discription {
     font-size: var(--body-size);
-}
+  }
 }
