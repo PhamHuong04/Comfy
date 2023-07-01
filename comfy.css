@@ -337,6 +337,7 @@ a {
   width: 30%;
   height: 50px;
   padding-left: 20px;
+  border: none;
 }
 
 .sign-up .form-sign-up .button-sign-up {
@@ -610,7 +611,7 @@ a {
   .sign-up .form-sign-up .button-sign-up {
     width: fit-content;
     font-size: 14px;
-    padding: 20px 15px;
+    padding: 15px 15px;
   }
 
   .action {
