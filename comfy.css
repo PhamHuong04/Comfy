@@ -13,6 +13,7 @@ a {
   background-repeat: no-repeat;
   background-size: 90% contain;
   background-position: right;
+  background-color: var(--yellow);
 }
 
 .header .container {
@@ -49,6 +50,7 @@ a {
   font-weight: 500;
   text-transform: uppercase;
   cursor: pointer;
+  display: inline-block;
 }
 
 .header .content a:hover {
@@ -334,6 +336,7 @@ a {
 .sign-up .form-sign-up input {
   width: 30%;
   height: 50px;
+  padding-left: 20px;
 }
 
 .sign-up .form-sign-up .button-sign-up {
@@ -378,22 +381,23 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .container {
+    width: 346px;
+    margin: 0 auto;
+  }
   .header {
-    height: 802px;
+    height: 800px;
+    background-image: url("./image/Header-mobile 1.png");
   }
 
-  .image img.desktop {
-    display: none;
-  }
-
-  .image img.mobile {
-    display: block;
+  .header .container {
+    display: flex;
+    align-items: flex-end;
   }
 
   .header .content {
-    margin: auto;
-    width: 90%;
-    transform: translate(0%, 350%);
+    margin: 0 auto 30px;
+    width: 100%;
   }
 
   .header .title {
@@ -413,7 +417,7 @@ a {
   }
 
   .benefits {
-    margin: 0 5% 30px;
+    margin: 0 0 30px;
   }
 
   .benefits .title {
@@ -452,12 +456,13 @@ a {
     background-image: url("image/zzz 1.png");
     background-position: bottom;
     height: 650px;
+    background-size: contain;
   }
 
+  .flash-deal .container {
+    align-items: flex-start;
+  }
   .flash-deal .content {
-    margin: auto;
-    width: 90%;
-    transform: translate(0, 0);
     text-align: center;
   }
 
@@ -481,12 +486,11 @@ a {
 
   .sale-up .collection {
     font-size: var(--font-size-5xl);
-    margin: 0 0 10px 0;
+    margin: 0 0 30px 0;
   }
 
   .sale-up .collection-list {
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 15px;
     row-gap: 30px;
   }
 
@@ -496,10 +500,9 @@ a {
 
   .sale-up .product {
     width: 165px;
-    /* margin: 30px 10px 20px; */
     margin: 0;
     overflow: hidden;
-    gap: 20px;
+    gap: 5px;
   }
 
   .sale-up .image {
@@ -532,17 +535,14 @@ a {
     height: 570px;
   }
 
-  .time .content {
-    margin: auto;
-    width: 90%;
-    transform: translate(0%, 135%);
-  }
-
   .time .content .title {
     font-size: var(--font-size-5xl);
     text-align: center;
   }
 
+  .time .container {
+    text-align: center;
+  }
   .time .box {
     width: 80px;
     height: 80px;
@@ -560,7 +560,9 @@ a {
   .time .content a {
     font-size: var(--subtitle-size);
     text-align: center;
-    margin: 30px 25% 0;
+  }
+  .time .count-down {
+    margin-bottom: 0;
   }
 
   .testimonials .title {
@@ -599,7 +601,6 @@ a {
 
   .sign-up .discription {
     font-size: var(--body-size);
-    margin: 20px 5% 50px;
   }
 
   .sign-up .form-sign-up input {
@@ -608,6 +609,8 @@ a {
 
   .sign-up .form-sign-up .button-sign-up {
     width: fit-content;
+    font-size: 14px;
+    padding: 20px 15px;
   }
 
   .action {
@@ -618,15 +621,9 @@ a {
     height: 600px;
   }
 
-  .action .content {
-    margin: auto;
-    width: 90%;
-    transform: translate(0%, 150%);
-  }
-
   .action .title {
     font-size: var(--font-size-5xl);
-    width: 100%;
+    width: 70%;
   }
 
   .action .discription {
